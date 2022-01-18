@@ -1,0 +1,14 @@
+{
+    "workbench.colorTheme": "Oceanic Next",
+    "workbench.iconTheme": "vscode-icons",
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+    "terminal.external.windowsExec": "R:\\Программы\\Git\\git-bash.exe",
+    "vsicons.dontShowNewVersionMessage": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.editorAssociations": {
+        "*.js": "default"
+    },
+    "workbench.editor.untitled.hint": "hidden",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "liveServer.settings.donotVerifyTags": true
+}
