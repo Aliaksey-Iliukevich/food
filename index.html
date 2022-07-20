@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,8 +13,8 @@
                 <img src="icons/logo.svg" alt="Логотип">
             </div>
             <nav class="header__links">
-                <a href="#" class="header__link">Доставка питания</a>
-                <a href="#" class="header__link">Второй пункт</a>
+                <a href="#delivery" class="header__link">Доставка питания</a>
+                <a href="#calculator" class="header__link">Калькулятор калорий</a>
             </nav>
         </div>
         <div class="header__right-block">
@@ -44,7 +44,7 @@
                     </div>
                 </div>
                 <div class="tabcontent">
-                    <img src="img/tabs/vegy.jpg" alt="vegy">
+                    <img src="img/tabs/balance.jpg" alt="balance">
                     <div class="tabcontent__descr">
                         Меню "Сбалансированное" - это соответствие вашего рациона всем научным рекомендациям. Мы тщательно просчитываем вашу потребность в к/б/ж/у и создаем лучшие блюда для вас.
                     </div>
@@ -102,20 +102,20 @@
                     </div>
                 </div>
                 <div class="offer__slider-wrapper">
-                 <div class="offer__slider-inner">
-                    <div class="offer__slide">
-                        <img src="img/slider/pepper.jpg" alt="pepper">
+                    <div class="offer__slider-inner">
+                        <div class="offer__slide">
+                            <img src="img/slider/pepper.jpg" alt="pepper">
+                        </div>
+                        <div class="offer__slide">
+                            <img src="img/slider/food-12.jpg" alt="food">
+                        </div>
+                        <div class="offer__slide">
+                            <img src="img/slider/olive-oil.jpg" alt="oil">
+                        </div>
+                        <div class="offer__slide">
+                            <img src="img/slider/paprika.jpg" alt="paprika">
+                        </div>
                     </div>
-                    <div class="offer__slide">
-                        <img src="img/slider/food-12.jpg" alt="food">
-                    </div>
-                    <div class="offer__slide">
-                        <img src="img/slider/olive-oil.jpg" alt="oil">
-                    </div>
-                    <div class="offer__slide">
-                        <img src="img/slider/paprika.jpg" alt="paprika">
-                    </div>
-                 </div>
                 </div>
             </div>
         </div>
@@ -127,7 +127,7 @@
         <div class="container">
             <h2 class="title">Рассчитаем вашу потребность в калориях?
             </h2>
-            <div class="calculating__field">
+            <div class="calculating__field" id="calculator">
                 <div class="calculating__subtitle">
                     Ваш пол
                 </div>
@@ -181,7 +181,7 @@
         </div>
     </div>
 
-    <div class="order">
+    <div class="order" id="delivery">
         <div class="container">
             <div class="title">Заказывай пробный день прямо сейчас!</div>
             <form action="#" class="order__form">
@@ -204,7 +204,7 @@
                     Мы ценим каждого клиента и предлагаем вам стать одним из них на очень выгодных условиях. 
                     Каждому, кто закажет доставку питание на неделю, будет предоставлена скидка в размере <span>20%!</span>
                     <br><br>
-                    Акция закончится 11 февраля в 00:00 
+                    Акция закончится 31 декабря в 00:00
                 </div>
             </div>
             <div class="promotion__timer">
@@ -262,6 +262,6 @@
             </div>
         </div>
     </div>
-    <script src="js/script.js"></script>
+    <script src="js/bundle.js"></script>
 </body>
 </html>
